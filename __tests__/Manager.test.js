@@ -1,7 +1,7 @@
 const Managers = require('../lib/Managers.js');
 
 
-const testObject = {name: 'Man', id: 1, email: "man@some.com", officeNumber: "777"}
+const testObject = {name: 'ricky', id: 1, email: "ricky@some.com", officeNumber: "123"}
 
 test('Checks for inherited Employee properties', () => {
     const manager = new Managers(testObject);
