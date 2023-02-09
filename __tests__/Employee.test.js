@@ -20,7 +20,7 @@ test('Gets employees id', () => {
     const employee = new Employees('nobody', 1,'email@some.com');
     expect(employee.getId()).toEqual(expect.any(String));
     console.log(`Employee getId(): ${employee.getId()}`)
-}); // getId returns a string btw
+}); 
 
 test('Gets employees email', () => {
     const employee = new Employees('nobody', 1,'email@some.com');
@@ -31,6 +31,5 @@ test('Gets employees email', () => {
 test('Gets employees role', () => {
     const employee = new Employees('nobody', 1,'email@some.com');
     expect(employee.getRole()).toBe('Employees');
-    // Returns 'Employee'
     console.log(`Employee getRole(): ${employee.getRole()}`)
 });
